@@ -1,7 +1,8 @@
-let seatInCar = 4;
+let seatInCar = 7;
 let passengers = 5;
-
-if ( seatInCar >= passengers ) {
+let infants = 1
+let infantSeats = 1
+if ( seatInCar >= passengers && infantSeats >= infants ) {
     console.log( 'lets ride' );
     
 } 
